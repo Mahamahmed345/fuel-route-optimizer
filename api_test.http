@@ -1,0 +1,12 @@
+####initialize
+
+GET http://127.0.0.1:8000/api/
+
+###trip api
+POST http://127.0.0.1:8000/api/route/
+Content-Type: application/json
+
+{
+    "start":"New York, NY",
+    "destination":"Los Angeles, CA"
+}
